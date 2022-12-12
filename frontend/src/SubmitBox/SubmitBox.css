@@ -1,0 +1,20 @@
+.SubmitBox {
+    background-color: blue;
+    height: 100px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.TextBox {
+    margin: auto;
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 25%;
+    height: 50%;
+}
+textarea {
+    resize: None;
+    height: 100px;
+    width: 400px;
+}

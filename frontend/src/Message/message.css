@@ -1,0 +1,14 @@
+.MessageBoxMessage {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.boxBoarder {
+    margin:10px;
+}
