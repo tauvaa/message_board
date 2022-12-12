@@ -3,7 +3,7 @@ workdir /usr/app
 copy . .
 run pip install --upgrade pip
 run pip install -r requirements.txt
-ENV message_board_host database
+ENV message_board_host 172.18.0.11
 ENV message_board_port 5432
 ENV message_board_user comp_user
 ENV message_board_password password
