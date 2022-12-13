@@ -14,20 +14,22 @@ const SubmitBox = () => {
     return (
         <div className="SubmitBox">
             <form onSubmit={handleSubmit}>
-                <div className="author">
-                    <label for="author">Author:</label>
-                    <input
-                        id="author"
-                        type={"text"}
-                        onChange={(e) => setAuthor(e.target.value)}
-                    ></input>
-                </div>
-                <textarea
-                    onChange={(e) => setSubtext(e.target.value)}
-                ></textarea>
+                <div className="authorBox">
+                    <div className="author">
+                        <label for="author">Author:</label>
+                        <input
+                            id="author"
+                            type={"text"}
+                            onChange={(e) => setAuthor(e.target.value)}
+                        ></input>
+                    </div>
+                    <textarea
+                        onChange={(e) => setSubtext(e.target.value)}
+                    ></textarea>
 
-                <div>
-                    <button type="submit">Submit</button>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
                 </div>
             </form>
         </div>
