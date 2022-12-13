@@ -23,13 +23,13 @@ const SubmitBox = () => {
                             onChange={(e) => setAuthor(e.target.value)}
                         ></input>
                     </div>
-                    <textarea
-                        onChange={(e) => setSubtext(e.target.value)}
-                    ></textarea>
+                </div>
+                <textarea
+                    onChange={(e) => setSubtext(e.target.value)}
+                ></textarea>
 
-                    <div>
-                        <button type="submit">Submit</button>
-                    </div>
+                <div>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
